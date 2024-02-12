@@ -1,0 +1,7 @@
+name: mon premier workflow
+on: [push]
+  jobs:
+    say hellow:
+      runs-on: ubuntu
+      steps: 
+        - run : echo "hello world"
