@@ -13,5 +13,5 @@ jobs:
         First_Name: Mona
       run: |
         echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
-        echo VAR_4: $VAR_4
-        echo SECRET_1: $SECRET_1
+        echo VAR_4: ${{ vars.VAR_4 }}
+        echo SECRET_1: ${{ secret.SECRET_1 }}
